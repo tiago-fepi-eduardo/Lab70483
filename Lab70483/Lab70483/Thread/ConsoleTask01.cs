@@ -9,17 +9,17 @@ namespace Lab70483
     class ConsoleTask01
     {
 
-        public static void Main()
-        {
-            Task<int> t = Task.Run(() =>
-            {
-                return 42;
-            });
+        //public static void Main()
+        //{
+        //    Task<int> t = Task.Run(() =>
+        //    {
+        //        return 42;
+        //    });
 
-            //t.Wait(); // Utilizar quanso desejar esperar a finalizacao de uma task antes de proceguir.
+        //    //t.Wait(); // Utilizar quanso desejar esperar a finalizacao de uma task antes de proceguir.
             
-            Console.Write("Valor dentro da task: {0}", t.Result);
-            Console.Read();
-        }
+        //    Console.Write("Valor dentro da task: {0}", t.Result);
+        //    Console.Read();
+        //}
     }
 }

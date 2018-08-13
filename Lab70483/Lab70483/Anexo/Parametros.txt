@@ -1,0 +1,22 @@
+﻿### Parametros
+- Parametros podem ser passados com seus nomes vinculados. Ex DoThis(Nome:Tiago, Idade: 32).
+- Um parametro pode ser passado sem seu nome apenas antes dos parametros com nome. Do contrario, compilador acusa erro.
+- Parametros nao obrigatório devem ser especificados nos metodos de recibimento com valores default. Desta forma eles nao sao necessarios
+o envio pelo codigo que chama a acao.
+
+### Metodos
+- Assinatura do metodo é a combinacao do nome do metodo e seus parametros. Isso permite o overload (Sobrecarga).
+- Extension methods. Utilize a palavra "This" no primeiro parametro do methodo static. Este metodo devera estar dentro de uma classe
+static tambem. Desta forma um novo metodo será adicionado ao datatype especificado logo apos o "This".
+
+### Encapsulation
+É a ideia de colocar uma lógica de programacao dentro de uma classe, metodo, variaveis ou propriedades. Estas devem seguir um critério de acesso
+para que o usuário final ou outras classes nao possam ver aquilo que nao cabem a eles. O acesso deve ser sempre restrito para as clases que nao
+interagem com os metodos e variaveis em questao.
+
+### Access Modifies
+Sao tipos de acesso a classes e metodos. Determina a visibilidade do conteúdo. 
+Public, private, protected, internal (same assembly) or protected internal (same assembly and derived).
+
+### Accessors
+Sao metodos do proprio framework como por exemplo GET or SET das propriedades e eventos. Seguem os modifies da propriedade relacionada.
